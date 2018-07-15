@@ -1,0 +1,1 @@
+web: java -Dcom.sun.management.jmxremote.port=5522 -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=18.210.174.10 -Dcom.sun.management.jmxremote.password.file=/var/app/current/jmxremote.password -jar application.jar
